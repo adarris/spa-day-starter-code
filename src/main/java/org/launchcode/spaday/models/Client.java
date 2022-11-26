@@ -13,6 +13,10 @@ public class Client {
         this.nailService = nailService;
     }
 
+    public Client(String skinType, String nailService, String name) {
+        this.skinType = skinType;
+        this.nailService = nailService;
+    }
     public String getSkinType() {
         return skinType;
     }
